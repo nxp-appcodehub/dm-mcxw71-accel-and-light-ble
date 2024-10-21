@@ -1,0 +1,27 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="demo" format="projectfile" versionSchema="1.0.0" name="MCXW71 Accel and Light BLE" uuid="5b65c0c8-ec61-4af4-a24a-ce2255e74afa">
+    <display_title>
+        MCXW71 Accelerometer and light sensor over Wireless UART
+    </display_title>
+    <overview>
+        <![CDATA[This demo serves as guide on enabling FXLS897xxx accelerometer over I2C and light sensor over ADC readings. The ADC conversions are trigger by a hardware timer trigger. The I2C transfers make use of CMSIS-Drives. Interact application through the IoT Toolbox using a Smartphone.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+        <toolchain name="vscode"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXW71"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="i2c"></peripheral>
+        <peripheral name="pwm"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="wireless_connectivity"></category>
+        <category name="sensor"></category>
+    </categories>
+</data:item>
